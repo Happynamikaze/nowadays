@@ -1,0 +1,11 @@
+.gif-set{
+	border-radius: 22px;
+  }
+
+  @media (max-width:767px) {
+
+	  .gif-set{
+		  width: 90%;
+		  height: 100%;
+		}
+	}

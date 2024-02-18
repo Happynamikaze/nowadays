@@ -1,0 +1,23 @@
+.videoDiv{
+	border-radius: 12px;
+}
+
+.videoDiv iframe{
+	border-radius: 32px;
+}
+
+
+@media (max-width:767px) {
+	.videoDiv{
+		width: 80%;
+		height: 200px !important;
+		margin: auto;
+	}
+	
+	
+.videoDiv iframe{
+	height: inherit;
+}
+
+
+}
