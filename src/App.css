@@ -9,7 +9,7 @@
   --bg-color-light-pink: #F9E2FF;
   --text-color-white-cream:
     #FCFBF4;
-    --text-color-white-cream-slider:
+  --text-color-white-cream-slider:
     #fbfcf4;
   --text-color-black: #252525;
   --btn-bg-blue: #5D47EC;
@@ -22,8 +22,8 @@
 
 body {
   font-size: var(--font-poppins);
-background-color: var(--bg-color-whole-light);
-color: var(--text-color-black);
+  background-color: var(--bg-color-whole-light);
+  color: var(--text-color-black);
 }
 
 
@@ -51,14 +51,17 @@ a {
 .text-color-white-cream {
   color: var(--text-color-white-cream) !important;
 }
-.sldier-div-bg{
-  background-color: var( --bg-color-whole-light);
-  
+
+.sldier-div-bg {
+  background-color: var(--bg-color-whole-light);
+
 }
+
 .text-color-black {
   color: var(--text-color-black);
 }
-.text-color-blue{
+
+.text-color-blue {
   color: var(--btn-bg-blue);
 }
 
@@ -66,44 +69,74 @@ a {
 .f-18 {
   font-size: 18px;
 }
+
 .f-15 {
   font-size: 15px;
 }
-.f-56{
+
+.f-56 {
   font-size: 56px;
 }
-.f-21{
+
+.f-21 {
   font-size: 21px
 }
+
 .f-24 {
   font-size: 24px;
 }
-.f-40{
+
+.f-40 {
   font-size: 40px;
 }
 
-.fw-400{
+
+.fw-400 {
   font-weight: 400;
 }
+
 .fw-500 {
   font-weight: 500;
 }
+
 .fw-600 {
   font-weight: 600;
 }
+
 .fw-700 {
   font-weight: 700;
 }
 
+.text-deco {
+  border-bottom: 1px solid var(--btn-bg-blue);
+}
+
+.slider-logo-div {
+  height: 20dvh;
+  width: 100%;
+
+}
+
+.slider-logo-div div {
+  height: inherit;
+  display: flex;
+
+}
+
+.slider-logo-div div img {
+
+  margin: auto;
+}
 
 @media (max-width:767px) {
 
-  .f-24-r{
+  .f-24-r {
     font-size: 24px;
   }
-  .f-15-r{
+
+  .f-15-r {
     font-size: 15px;
 
   }
- 
+
 }
