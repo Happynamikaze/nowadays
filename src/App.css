@@ -134,7 +134,17 @@ a {
 
 
 
-
+.bg-svg-set {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  width: 100%;
+  height: 100vh;
+  z-index: -999;
+}
 
 
 @keyframes rotate {
@@ -168,21 +178,7 @@ a {
 
 }
 
-@media (min-width:770px) {
 
-  svg {
-    -webkit-filter: blur(10px);
-    filter: blur(10px);
-    position: fixed;
-    top: 0;
-    left: 0;
-    opacity: 0.5;
-    width: 100%;
-    height: 100vh;
-    z-index: -999;
-  }
- 
-}
 
 @media (max-width:767px) {
 
