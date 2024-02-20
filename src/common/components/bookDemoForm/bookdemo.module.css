@@ -1,7 +1,7 @@
-.form_bg {
+/* .form_bg {
     background-color: var(--btn-bg-shadow);
     border-radius: 12px;
-}
+} */
 
 .form_container {
     position: relative;
@@ -9,7 +9,7 @@
 }
 
 form {
-    background: rgba(255, 255, 255, 0.774);
+    background: rgba(255, 255, 255, 0.39);
     /* padding: 3em; */
     /* height: 320px; */
     border-radius: 20px;
@@ -245,7 +245,8 @@ button:focus {
 }
 
 @media (max-width:767px) {
-
+    form {
+        background: rgba(255, 255, 255, 0.712);}
 	.drop-1 {
 		height: 80px;
 		width: 80px;
