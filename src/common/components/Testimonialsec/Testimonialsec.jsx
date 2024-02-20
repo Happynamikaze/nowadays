@@ -13,6 +13,7 @@ function Testimonialsec() {
 		infinite: true,
 		speed: 500,
 		autoplay: true,
+		arrow:false,
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		responsive: [
@@ -36,6 +37,7 @@ function Testimonialsec() {
 			{
 				breakpoint: 600,
 				settings: {
+					arrows: false,
 					slidesToShow: 1,
 					slidesToScroll: 1
 				}
