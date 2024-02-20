@@ -167,6 +167,7 @@ a {
   transform-origin: 84px 93px;
 
 }
+
 @media (min-width:770px) {
 
   svg {
@@ -175,7 +176,7 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.5;
     width: 100%;
     height: 100vh;
     z-index: -999;

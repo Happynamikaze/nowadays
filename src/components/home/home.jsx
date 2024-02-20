@@ -2,6 +2,7 @@ import Alumnisec from "../../common/components/alumnisec/alumnisec";
 import Bookdemo from "../../common/components/bookDemoForm/bookdemo";
 import Hero from "../../common/components/hero/hero";
 import Navbar from "../../common/components/navbar";
+import RangeMeter from "../../common/components/rangemeater/rangemeater";
 import Testimonial from "../../common/components/testimonial/testimonial";
 import Videosec from "../../common/components/videosec/videosec";
 import Gifdemo from "../../common/gifdemo/gifdemo";
@@ -14,6 +15,7 @@ function Home() {
 			<Videosec />
 			<Testimonial />
 			<Gifdemo />
+			<RangeMeter />
 			<Alumnisec />
 			<Bookdemo />
 			<svg preserveAspectRatio="xMidYMid slice" viewBox="10 10 80 80" className="d-md-block d-none">
