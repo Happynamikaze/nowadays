@@ -46,7 +46,7 @@ function Testimonialsec() {
 		<div div className="sldier-div-bg">
 			<Container >
 				<Row className="my-5 py-3">
-					<p className="text-center f-24 fw-600 my-2 text-color-blue">Customer Reviews</p>
+					<p className="text-center f-40 f-24-r fw-700 my-2 text-color-blue">Customer Reviews</p>
 					<Col className={`${Styles["slider-set-hov"]}`}>
 						<Slider {...settings}>
 							<Col md={3}>

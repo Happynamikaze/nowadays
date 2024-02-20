@@ -15,7 +15,7 @@
   --btn-bg-blue: #5D47EC;
   --sldier-bg-blue: #7f6df929;
   --shadow-text-nd-box: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  --btn-bg-shadow: rgba(148, 154, 236, 0.579) 0px 4px 12px;
+  --btn-bg-shadow: rgb(148, 154, 236) 0px 4px 12px;
   --primary-color-purple-dark: #5319ac;
 
 }
@@ -116,6 +116,10 @@ a {
   width: 100%;
 
 }
+.sldier-div-bg{
+  background-color: var(--sldier-bg-blue);
+}
+
 
 .slider-logo-div div {
   height: inherit;
@@ -126,6 +130,57 @@ a {
 .slider-logo-div div img {
 
   margin: auto;
+}
+
+
+
+
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.out-top {
+  animation: rotate 20s linear infinite;
+  transform-origin: 13px 25px;
+}
+
+.in-top {
+  animation: rotate 10s linear infinite;
+  transform-origin: 13px 25px;
+}
+
+.out-bottom {
+  animation: rotate 25s linear infinite;
+  transform-origin: 84px 93px;
+}
+
+.in-bottom {
+  animation: rotate 15s linear infinite;
+  transform-origin: 84px 93px;
+
+}
+@media (min-width:770px) {
+
+  svg {
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    width: 100%;
+    height: 100vh;
+    z-index: -999;
+  }
+ 
 }
 
 @media (max-width:767px) {

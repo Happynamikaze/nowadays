@@ -48,10 +48,10 @@ function Alumnisec() {
 		]
 	};
 	return (
-		<div div className="sldier-div-bg">
+		<div className="sldier-div-bg">
 			<Container >
 				<Row className="my-5 py-3 ">
-					<p className="text-center f-24 fw-600 my-2 d-inline-block text-color-blue ">Built by Alumni from</p>
+					<p className="text-center f-40 f-24-r fw-700 my-2 d-inline-block text-color-blue ">Built by Alumni from</p>
 					<Col >
 						<Sliders {...setting}>
 							<Col md={3}>

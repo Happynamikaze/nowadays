@@ -38,7 +38,7 @@ function Bookdemo() {
 			<Container>
 				<Row>
 
-					<p className="f-24 fw-600 text-center pt-4">
+					<p className="f-40 f-24-r  fw-700 text-center pt-4">
 						<span className="text-color-blue">Book</span> a Demo Today
 					</p>
 					<Col lg={8} md={11} sm={10} className={`${Styles["form_container"]} mx-auto `}>

@@ -9,7 +9,7 @@
 }
 
 form {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.774);
     /* padding: 3em; */
     /* height: 320px; */
     border-radius: 20px;
@@ -162,7 +162,7 @@ label {
     left: -40px;
     z-index: -1;
     transition: all 0.2s ease;
-	animation: MoveUpDown 4s linear infinite;
+	animation: MoveUpDown 8s linear infinite;
 	
 }
 
@@ -173,7 +173,7 @@ label {
     right: -10px;
     transition: all 0.2s ease;
 
-	animation: MoveUpDown 4s linear infinite;
+	animation: MoveUpDown 6s linear infinite;
 
 }
 
@@ -185,7 +185,7 @@ label {
     bottom: 270px;
     transition: all 0.2s ease;
 
-	animation: sca 4s linear infinite;
+	animation: sca 6s linear infinite;
     z-index: -1;
 }
 
@@ -196,7 +196,7 @@ label {
     right: -60px;
     transition: all 0.2s ease;
 
-	animation: sca 6s linear infinite;
+	animation: sca 8s linear infinite;
 }
 
 .drop-5 {
@@ -207,14 +207,14 @@ label {
     z-index: -1;
     transition: all 0.2s ease;
 
-	animation: MoveUpDown 4s linear infinite;
+	animation: MoveUpDown 6s linear infinite;
 
 }
 
 @keyframes MoveUpDown {
 	0%, 100% {
 	  bottom: 70px;
-	  scale: 1.4;
+	  scale: 1.6;
 	}
 	50% {
 		scale: 1.1;
@@ -227,7 +227,7 @@ label {
 @keyframes sca {
 	0%, 100% {
 
-	  scale: 1.2;
+	  scale: 1.4;
 	}
 	50% {
 		scale: 1.1;
