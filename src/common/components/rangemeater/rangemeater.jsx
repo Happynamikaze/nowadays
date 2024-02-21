@@ -62,9 +62,9 @@ function RangeMeter() {
 
   return (
     <>
-      <Container className='my-5' >
+      <Container className='my-5 secHeightSet' >
           <p className=' f-40 fw-700 f-24-r text-center text-color-blue'>Lorem ipsum</p>
-        <Row className='counters mx-auto d-flex flex-md-row flex-column gap-4  mt-5'>
+        <Row className='counters mx-auto d-flex flex-md-row flex-column wi justify-content-around gap-4  mt-5'>
           <Col>
             <div>
 

@@ -97,7 +97,7 @@ function Navbar() {
 
 
 		<>
-			<Container className={`${Style["navbar_fix"]} bx-shadow mt-3  py-2`}>
+			<Container className={`${Style["navbar_fix"]}   bx-shadow mt-3  py-2`}>
 				<Row className="  align-items-center">
 					<Col xs={6}  >
 						<div className={`${Style["left_side"]} d-flex    align-items-center gap-2`}>

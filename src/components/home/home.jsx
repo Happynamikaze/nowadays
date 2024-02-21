@@ -7,18 +7,22 @@ import Testimonial from "../../common/components/testimonial/testimonial";
 import Videosec from "../../common/components/videosec/videosec";
 import Gifdemo from "../../common/gifdemo/gifdemo";
 
+
+
+
 function Home() {
+	
 	return (
 		<>
-			<Navbar />
-			<Hero />
-			<Videosec />
-			<Testimonial />
-			<Gifdemo />
-			<RangeMeter />
-			<Alumnisec />
-			<Bookdemo />
-			<svg  preserveAspectRatio="xMidYMid slice" viewBox="10 10 80 80" className=" bg-svg-set">
+			<Navbar  />
+      <Hero  />
+      <Videosec className="component" />
+      <Testimonial className="component" />
+      <Gifdemo className="component" />
+      <RangeMeter className="component" />
+      <Alumnisec className="component" />
+      <Bookdemo className="component" />
+			<svg preserveAspectRatio="xMidYMid slice" viewBox="10 10 80 80" className=" bg-svg-set">
 				<defs>
 				</defs>
 				<path fill="#EAE8FA" class="out-top" d="M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z" />
@@ -26,6 +30,7 @@ function Home() {
 				<path fill="#5d47ec52" class="out-bottom" d="M105.9,48.6c-12.4-8.2-29.3-4.8-39.4.8-23.4,12.8-37.7,51.9-19.1,74.1s63.9,15.3,76-5.6c7.6-13.3,1.8-31.1-2.3-43.8C117.6,63.3,114.7,54.3,105.9,48.6Z" />
 				<path fill="#5D47EC" class="in-bottom" d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z" />
 			</svg>
+
 		</>
 	)
 }

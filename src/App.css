@@ -21,10 +21,14 @@
 }
 
 body {
+
+
   font-size: var(--font-poppins);
   background-color: var(--bg-color-whole-light);
   color: var(--text-color-black);
+
 }
+
 
 
 p {
@@ -40,6 +44,17 @@ a {
   box-shadow: var(--shadow-text-nd-box);
 }
 
+/* .secHeightSet{
+  height: 30rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.wi{
+  width: inherit;
+} */
 .text-shadow {
   text-shadow: var(--shadow-text-nd-box);
 }
